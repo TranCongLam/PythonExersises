@@ -81,7 +81,6 @@ print(ex4) #Kết quả ra False: k có tên cũng như số tiền đó
 
 #Case not use "in":
 def look1(name, amounts, name1, money):
-    result = False
     for i in range(len(name)):
         num1 = name[i]
         num2 = amounts[i]
